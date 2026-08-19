@@ -14,14 +14,14 @@ export default function Footer() {
               </Link>
             </div>
             <p className="mt-4 text-sm text-slate-600 max-w-sm">
-              Your trusted platform for online astrology consultation. Connect with verified astrologers and get accurate predictions about your future.
+              Your trusted platform for online astrology consultation. Connect with verified magic persons and get accurate predictions about your future.
             </p>
           </div>
           <div>
             <h3 className="text-sm font-semibold text-slate-900">Services</h3>
             <ul className="mt-4 space-y-3 text-sm text-slate-600">
-              <li><Link href="#" className="hover:text-amber-600">Chat with Astrologer</Link></li>
-              <li><Link href="#" className="hover:text-amber-600">Talk to Astrologer</Link></li>
+              <li><Link href="#" className="hover:text-amber-600">Chat with Magic Person</Link></li>
+              <li><Link href="#" className="hover:text-amber-600">Talk to Magic Person</Link></li>
               <li><Link href="#" className="hover:text-amber-600">Free Kundli</Link></li>
               <li><Link href="#" className="hover:text-amber-600">Daily Horoscope</Link></li>
             </ul>
@@ -29,7 +29,7 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-semibold text-slate-900">Important Links</h3>
             <ul className="mt-4 space-y-3 text-sm text-slate-600">
-              <li><Link href="#" className="hover:text-amber-600">Astrologer Login</Link></li>
+              <li><Link href="#" className="hover:text-amber-600">Magic Person Login</Link></li>
               <li><Link href="#" className="hover:text-amber-600">About Us</Link></li>
               <li><Link href="#" className="hover:text-amber-600">Terms & Conditions</Link></li>
               <li><Link href="#" className="hover:text-amber-600">Privacy Policy</Link></li>

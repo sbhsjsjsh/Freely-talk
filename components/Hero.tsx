@@ -10,26 +10,19 @@ export default function Hero() {
             <Star className="h-4 w-4 fill-amber-400" />
             <span>Trusted by 5 Million+ Users</span>
           </div>
-          <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl text-balance">
-            Navigate your life's journey <br className="hidden md:block"/>
-            with cosmic clarity.
+          <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl text-balance capitalize">
+            Obstacle and resolution of life <br className="hidden md:block"/>
+            with magic person
           </h1>
           <p className="mt-6 text-lg text-slate-300 max-w-2xl text-balance mx-auto md:mx-0">
-            Connect with India's top astrologers, tarot readers, and numerologists. Get accurate predictions for your love, career, and marriage.
+            Connect with India's top magic persons, tarot readers, and numerologists. Get accurate predictions for your love, career, and marriage.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <Link 
               href="#astrologers" 
               className="inline-flex h-12 items-center justify-center rounded-md bg-amber-600 px-8 font-medium text-white shadow-sm transition-colors hover:bg-amber-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 whitespace-nowrap shrink-0"
             >
-              Chat with Astrologer
-            </Link>
-            <Link 
-              href="#ask" 
-              className="inline-flex h-12 items-center justify-center rounded-md border border-slate-700 bg-slate-800 px-8 font-medium text-white shadow-sm transition-colors hover:bg-slate-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 whitespace-nowrap shrink-0"
-            >
-              Ask AI Astrologer
-              <ArrowRight className="ml-2 h-4 w-4" />
+              Chat with Magic Person
             </Link>
           </div>
         </div>

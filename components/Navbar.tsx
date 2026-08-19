@@ -21,9 +21,7 @@ export default function Navbar() {
   }, [isMobileMenuOpen]);
 
   const navLinks = [
-    { name: "Chat with Astrologer", href: "#astrologers", icon: MessageCircle },
-    { name: "Our Services", href: "#services", icon: Star },
-    { name: "Ask AI Astrologer", href: "#ask", icon: Magic },
+    { name: "Chat with Magic Person", href: "#astrologers", icon: MessageCircle },
   ];
 
   return (
@@ -46,8 +44,8 @@ export default function Navbar() {
           </nav>
 
           <div className="flex items-center gap-4">
-            <Link href="#ask" className="hidden md:inline-flex h-10 items-center justify-center rounded-md bg-amber-600 px-4 py-2 text-sm font-medium text-white shadow-sm transition-colors hover:bg-amber-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-600 focus-visible:ring-offset-2">
-              Free AI Reading
+            <Link href="#astrologers" className="hidden md:inline-flex h-10 items-center justify-center rounded-md bg-amber-600 px-4 py-2 text-sm font-medium text-white shadow-sm transition-colors hover:bg-amber-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-600 focus-visible:ring-offset-2">
+              Start Free Call
             </Link>
             <button 
               className="md:hidden p-2 -mr-2 text-slate-600 hover:text-slate-900 focus:outline-none"
@@ -110,11 +108,11 @@ export default function Navbar() {
 
               <div className="mt-8 px-2">
                 <Link 
-                  href="#ask"
+                  href="#astrologers"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="flex w-full h-14 items-center justify-center rounded-xl bg-amber-600 px-4 font-medium text-white shadow-sm transition-colors hover:bg-amber-700 focus-visible:outline-none"
                 >
-                  Get Your Free AI Reading
+                  Start Free Call
                 </Link>
               </div>
             </div>
