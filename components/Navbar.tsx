@@ -44,9 +44,9 @@ export default function Navbar() {
           </nav>
 
           <div className="flex items-center gap-4">
-            <Link href="#astrologers" className="hidden md:inline-flex h-10 items-center justify-center rounded-md bg-amber-600 px-4 py-2 text-sm font-medium text-white shadow-sm transition-colors hover:bg-amber-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-600 focus-visible:ring-offset-2">
-              Start Free Call
-            </Link>
+            <a href="https://wa.me/917715969039?text=Hi,%20I%20would%20like%20a%20free%20consultation" target="_blank" rel="noopener noreferrer" className="hidden md:inline-flex h-10 items-center justify-center rounded-md bg-[#25D366] px-4 py-2 text-sm font-medium text-white shadow-sm transition-colors hover:bg-[#128C7E] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2">
+              Free Consultation
+            </a>
             <button 
               className="md:hidden p-2 -mr-2 text-slate-600 hover:text-slate-900 focus:outline-none"
               onClick={() => setIsMobileMenuOpen(true)}
@@ -107,13 +107,14 @@ export default function Navbar() {
               </nav>
 
               <div className="mt-8 px-2">
-                <Link 
-                  href="#astrologers"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className="flex w-full h-14 items-center justify-center rounded-xl bg-amber-600 px-4 font-medium text-white shadow-sm transition-colors hover:bg-amber-700 focus-visible:outline-none"
+                <a 
+                  href="https://wa.me/917715969039?text=Hi,%20I%20would%20like%20a%20free%20consultation"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex w-full h-14 items-center justify-center rounded-xl bg-[#25D366] px-4 font-medium text-white shadow-sm transition-colors hover:bg-[#128C7E] focus-visible:outline-none"
                 >
-                  Start Free Call
-                </Link>
+                  Free Consultation
+                </a>
               </div>
             </div>
           </motion.div>

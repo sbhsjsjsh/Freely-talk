@@ -11,11 +11,21 @@ export default function ConsultationForm() {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate a network request for form submission
+    // Collect form data
+    const form = e.target as HTMLFormElement;
+    const name = (form.elements.namedItem("name") as HTMLInputElement).value;
+    const phone = (form.elements.namedItem("phone") as HTMLInputElement).value;
+    const topic = (form.elements.namedItem("topic") as HTMLSelectElement).value;
+
+    const message = `Hi, I would like a free consultation. My name is ${name} and I need guidance on ${topic}.`;
+    const whatsappUrl = `https://wa.me/917715969039?text=${encodeURIComponent(message)}`;
+
+    // Open WhatsApp
     setTimeout(() => {
       setIsSubmitting(false);
       setIsSuccess(true);
-    }, 1500);
+      window.open(whatsappUrl, "_blank");
+    }, 800);
   };
 
   return (
@@ -57,7 +67,7 @@ export default function ConsultationForm() {
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-2">Request Received!</h3>
                 <p className="text-slate-600">
-                  Your cosmic profile is being prepared. An expert magic person will connect with you shortly on your provided phone number.
+                  Redirecting you to WhatsApp... You can now chat directly with our magic person for your free consultation.
                 </p>
                 <button 
                   onClick={() => setIsSuccess(false)}
@@ -156,7 +166,7 @@ export default function ConsultationForm() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="mt-6 flex w-full h-12 items-center justify-center rounded-md bg-amber-600 px-8 font-medium text-white shadow-sm transition-colors hover:bg-amber-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-600 focus-visible:ring-offset-2 disabled:opacity-70"
+                  className="mt-6 flex w-full h-12 items-center justify-center rounded-md bg-[#25D366] px-8 font-medium text-white shadow-sm transition-colors hover:bg-[#128C7E] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2 disabled:opacity-70"
                 >
                   {isSubmitting ? (
                     <>
@@ -164,7 +174,7 @@ export default function ConsultationForm() {
                       Connecting...
                     </>
                   ) : (
-                    "Start Free Call Now"
+                    "Free Consultation on WhatsApp"
                   )}
                 </button>
                 <p className="text-xs text-center text-slate-500 mt-4">

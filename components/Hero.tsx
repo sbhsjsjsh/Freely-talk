@@ -18,12 +18,14 @@ export default function Hero() {
             Connect with India's top magic persons, tarot readers, and numerologists. Get accurate predictions for your love, career, and marriage.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <Link 
-              href="#astrologers" 
-              className="inline-flex h-12 items-center justify-center rounded-md bg-amber-600 px-8 font-medium text-white shadow-sm transition-colors hover:bg-amber-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 whitespace-nowrap shrink-0"
+            <a 
+              href="https://wa.me/917715969039?text=Hi,%20I%20would%20like%20a%20free%20consultation" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex h-12 items-center justify-center rounded-md bg-[#25D366] px-8 font-medium text-white shadow-sm transition-colors hover:bg-[#128C7E] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 whitespace-nowrap shrink-0"
             >
-              Chat with Magic Person
-            </Link>
+              Free Consultation (WhatsApp)
+            </a>
           </div>
         </div>
       </div>
