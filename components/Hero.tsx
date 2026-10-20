@@ -15,7 +15,7 @@ export default function Hero() {
             with magic person
           </h1>
           <p className="mt-6 text-lg text-slate-300 max-w-2xl text-balance mx-auto md:mx-0">
-            Connect with India's top magic persons, tarot readers, and numerologists. Get accurate predictions for your love, career, and marriage.
+            Connect with India&apos;s top magic persons, tarot readers, and numerologists. Get accurate predictions for your love, career, and marriage.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a 

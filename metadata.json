@@ -1,6 +1,6 @@
 {
   "name": "Freely Talk",
-  "description": "Premium astrology consulting, tarot readings, and personalized cosmic guidance.",
+  "description": "Connect with astrology experts, tarot readers, and numerologists at Freely Talk for guidance on love, career, marriage, and life decisions. Get started with a free consultation on WhatsApp.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

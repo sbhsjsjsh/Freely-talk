@@ -8,7 +8,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2">
-              <Sparkles className="h-6 w-6 text-amber-600" />
+              <div className="h-8 w-8 rounded-full overflow-hidden border border-slate-200">
+                <img src="/logo.png" alt="Freely Talk Logo" className="h-full w-full object-cover" />
+              </div>
               <Link href="/" className="text-xl font-bold tracking-tight text-slate-900">
                 Freely Talk
               </Link>

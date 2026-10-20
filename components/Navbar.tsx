@@ -29,7 +29,9 @@ export default function Navbar() {
       <header className="sticky top-0 z-40 w-full border-b border-slate-200 bg-white/90 backdrop-blur-md">
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2">
-            <Sparkles className="h-6 w-6 text-amber-600" />
+            <div className="h-8 w-8 rounded-full overflow-hidden border border-slate-200">
+              <img src="/logo.png" alt="Freely Talk Logo" className="h-full w-full object-cover" />
+            </div>
             <Link href="/" className="text-xl font-bold tracking-tight text-slate-900">
               Freely Talk
             </Link>
@@ -70,7 +72,9 @@ export default function Navbar() {
           >
             <div className="flex h-16 items-center justify-between px-4 sm:px-6 border-b border-slate-200 bg-white shadow-sm">
               <div className="flex items-center gap-2">
-                <Sparkles className="h-6 w-6 text-amber-600" />
+                <div className="h-8 w-8 rounded-full overflow-hidden border border-slate-200">
+                  <img src="/logo.png" alt="Freely Talk Logo" className="h-full w-full object-cover" />
+                </div>
                 <span className="text-xl font-bold tracking-tight text-slate-900">Freely Talk</span>
               </div>
               <button 
